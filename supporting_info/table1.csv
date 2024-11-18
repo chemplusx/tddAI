@@ -1,0 +1,42 @@
+Software/Tool,Algorithm,Datasets Used,Approach,Ref,GitHub Code,Accuracy,Stereochemistry considered
+AiZynthFinder,Monte Carlo tree search,"USPTO
+dataset",Retrosynthesis Prediction,[1],https://github.com/MolecularAI/aizynthfinder,,
+ASKCOS,Monte Carlo tree search,"Reaxys, Sigma Aldrich","Reaction Prediction, Retrosynthesis Prediction",[2],,,Yes
+AutoSynRoute,MCTS,"USPTO_50K, USPTO_MIT",retrosynthetic prediction,[3],http://https//github.com/PKUMDL-AI/AutoSynRoute,63.00%,Yes
+3N-MCTS,MCTS,Reaxys,Retrosynthesis prediction,[4],,,Yes
+BioNavi-NP,AND-OR tree-based,"MetaCyc, KEGG and MetaNetX",Bio-Retrosynthesis Prediction,[5],https://github.com/prokia/BioNavi-NP,60.60%,Yes
+NeuralSym,"Expert system,
+Logistic Regression,
+Highway Network,
+FC512 ELU",Reaxys,"Reaction Prediction, Retrosynthesis",[6],https://github.com/linminhtoo/neuralsym,"97% (Reaction prediction),
+95% (Retrosynthesis)",
+ChemAI,"kNN, SVM, Gradient boosting, Deep Neural Networks (DNN), graph neural networks",,"Reaction Prediction, Retrosynthesis",https://ai.chemdx.org/,Commercial,,
+SCROP,transformer neural networks,"USPTO,
+Jin’s data set",Retrosynthesis Prediction,[7],https://github.com/Jh-SYSU/SCROP,"59.0% (USPTO),
+41.5% (Jin’s data set)",
+RetroXpert,Reactant Generation Network,USPTO,Retrosynthesis Prediction,[8],https://github.com/uta-smile/RetroXpert,"70.4% (with reaction type),
+65.5% (without reaction type)",
+DeepReac+,GNN-based deep learning,"From literature
+Dataset A[9] 
+Dataset B [10]
+Dataset C[11]","Chemical reaction outcome prediction, 
+Identification of optimal reaction conditions",[12],https://github.com/bm2-lab/DeepReac,,
+GraphRXN,"Graph-sum, Graph-concat, Yield-BERT,","Yield for Buchwald-Hartwig, Suzuki-Miyaura coupling, reaction, Stereo-selectivity for asymmetric N, S-acetal formation reaction",Reaction Prediction,"[13, 14]",https://github.com/jidushanbojue/GraphRXN,0.713,
+IBM RXN for Chemistry,Deep Neural Networks (DNN),,Reaction Prediction,https://rxn.res.ibm.com/,Commercial,,Yes
+ICSYNTH,,,,[15],,,Yes
+MechRetro,Graph Transformer architecture,USPTO-50K,Retrosynthetic Prediction and Pathway Plan,[16],https://github.com/Wanyinee/MechR,,
+Molecular Transformer,Autoregressive encoder–decoder model,"USPTO MIT, USPTO LEF, USPTO STERE, Patent reactions until Sept. 2016, Pistachio 2017",Reaction Prediction,[17],,90.40%,Yes
+Neural seq2seq model,"LSTM, BLSTM","Jin's USPTO dataset, Lowe's dataset",Reaction Prediction,[18],,"80.30%, 0.654",
+ReactionMiner,,KEGG database,"Reaction Prediction, Pathway Prediction",[19],https://github.com/RamanLab/ReactionMiner,,
+ReactionPredictor,ANNs,"EP, new Reaction Explorer, graduate texts, RP",Reaction Prediction,[20],,>77%,
+RetroExplainer,,"USPTO50K, USPTO-MIT",Retrosynthesis Prediction,,https://github.com/wangyu-sd/RetroExplainer,,
+RetroPath2.0,,,Reaction Prediction,[21],https://github.com/brsynth/rp2paths,,
+RetroPrime,,"USPTO-50 K, USPTO-full",Retrosynthesis Prediction,[22],https://github.com/wangxr0526/RetroPrime,"51 -65%(USPTO-50 K)
+44.1%(USPTO-full)",
+RetroPathRL,Monte Carlo Tree Search,,Retrosynthesis Prediction,[23],https://github.com/brsynth/RetroPathRL,,
+RetroTRAE,Transformer-based AE model,"USPTO, PubChem, ChEMBL",Retrosynthesis Prediction,[24],https://github.com/knu-lcbc/RetroTRAE,58.30%,
+Synthia (Chematica),,,"Reaction Prediction, Retrosynthesis",[25],Commercial,,Yes
+Graph2SMILES,,"USPTO,
+CAS","Reaction Prediction, Retrosynthesis",[26],https://github.com/coleygroup/Graph2SMILES,,Yes
+SEMG-MIGNN,"SEMG, MIGNN","Doyle’s Dataset[9], Denmark’s Dataset[27]",Predicting reaction yields,[28],https://github.com/Shuwen-Li/SEMG-MIGNN,,
+Chemist-X,"RAG, SCL","PubChem, ChemSpi-der",Reaction condition recommendation,[29],,,
