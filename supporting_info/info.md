@@ -24,7 +24,7 @@ algorithms. Such programs aim to replicate the decision-making process of synthe
 chemists, thereby facilitating more efficient and innovative approaches to chemical synthesis.
 These advancements reflect a broader trend in the pharmaceutical and chemical industries,
 where high-throughput experimentation and data-driven methods are revolutionising
-traditional practices. There are many software and tools developed for synthesis planning (table1.csv)[]
+traditional practices. There are many software and tools developed for synthesis planning [table1.csv](#data-sources)
 
 
 ### References
