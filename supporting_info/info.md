@@ -1,6 +1,7 @@
 ## Supporting Information
 
-** Transforming Drug Discovery: The Role of AI in Chemical Synthesis Planning **
+### Transforming Drug Discovery: The Role of AI in Chemical Synthesis Planning
+
 Madhavi Kumari a , Pradnya Kamble a , M. N. V. Ravi Kumar b , Prabha Garg a * 
 a Department of Pharmacoinformatics, National Institute of Pharmaceutical Education and
 Research (NIPER) S.A.S. Nagar, Sector 67, S.A.S. Nagar (Mohali)-160062, Punjab (India)
@@ -8,7 +9,8 @@ b Division of Translational Science and Medicine, College of Community Health Sc
 and Convergent Bioscience and Medicine, The University of Alabama, Tuscaloosa 35401
 (USA)
 
-** Researches and software developed for synthesis planning by ML **
+### Researches and software developed for synthesis planning by ML
+
 Recent advancements in ML have significantly impacted the field of synthesis planning in
 chemistry, which have led to the development of sophisticated software tools. These tools are
 designed to assist chemists in mapping out the most efficient and feasible pathways for
@@ -25,7 +27,7 @@ where high-throughput experimentation and data-driven methods are revolutionisin
 traditional practices. There are many software and tools developed for synthesis planning (table1.csv)[]
 
 
-References
+### References
 
 1.	Genheden, S., et al., AiZynthFinder: a fast, robust and flexible open-source software for retrosynthetic planning. J Cheminform, 2020. 12(1): p. 70.
 2.	Gallou, F., R. Robinson, and M. Parmentier, Computer Aided Synthesis Planning: ASKCOS. Journal of medicinal chemistry, 2020.
